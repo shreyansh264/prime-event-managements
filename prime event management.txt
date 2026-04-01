@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prime Events Managements</title>
+
+<style>
+body { margin:0; font-family:Arial; background:#000; color:#fff; }
+header { text-align:center; padding:60px 20px; }
+header img { width:120px; }
+h1 { color:gold; }
+
+.section { padding:40px 20px; text-align:center; }
+.section h2 { color:gold; }
+
+.grid { display:flex; flex-wrap:wrap; justify-content:center; }
+.card {
+  background:#111;
+  margin:15px;
+  padding:15px;
+  border-radius:10px;
+  width:300px;
+}
+.card img { width:100%; border-radius:10px; }
+
+.whatsapp {
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  background:#25D366;
+  color:white;
+  padding:15px;
+  border-radius:50%;
+  text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <img src="logo.png">
+  <h1>Prime Events Managements</h1>
+  <p>We Create. You Celebrate.</p>
+</header>
+
+<div class="section">
+<h2>Wedding Planning</h2>
+<div class="grid">
+<div class="card">
+<img src="https://source.unsplash.com/400x300/?wedding">
+<p>Dream weddings with premium planning & decoration.</p>
+</div>
+</div>
+</div>
+
+<div class="section">
+<h2>Birthday Parties</h2>
+<div class="grid">
+<div class="card">
+<img src="https://source.unsplash.com/400x300/?birthday">
+<p>Fun & memorable birthday celebrations.</p>
+</div>
+</div>
+</div>
+
+<div class="section">
+<h2>Corporate Events</h2>
+<div class="grid">
+<div class="card">
+<img src="https://source.unsplash.com/400x300/?corporate-event">
+<p>Professional business event management.</p>
+</div>
+</div>
+</div>
+
+<div class="section">
+<h2>Decor & Theme Parties</h2>
+<div class="grid">
+<div class="card">
+<img src="https://source.unsplash.com/400x300/?party-decor">
+<p>Creative theme decorations for all events.</p>
+</div>
+</div>
+</div>
+
+<div class="section">
+<h2>Entertainment</h2>
+<div class="grid">
+<div class="card">
+<img src="https://source.unsplash.com/400x300/?dj-party">
+<p>DJ, artists & full entertainment solutions.</p>
+</div>
+</div>
+</div>
+
+<footer style="text-align:center; padding:20px;">
+<p>📞 +91 73969 34888</p>
+<p>📍 Secunderabad</p>
+<p>📧 primeeventsmanagement85@gmail.com</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/917396934888">💬</a>
+
+</body>
+</html>
